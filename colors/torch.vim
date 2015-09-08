@@ -2,7 +2,7 @@
 " Author:   Takahiro Yoshihara <tacahiroy@gmail.com>
 " License: Copyright 2015 Takahiro Yoshihara
 "          Distributed under the same terms as Vim itself. See :help license.
-" Description: This colourscheme is most useless ever
+" Description: This colorscheme is most useless ever
 
 if exists("syntax_on")
   syntax reset
