@@ -4,6 +4,11 @@
 "          Distributed under the same terms as Vim itself. See :help license.
 " Description: This colorscheme is most useless ever
 
+if !has('gui_running')
+  echoerr 'This colorscheme cannot be used in terminal.'
+  finish
+endif
+
 if exists("syntax_on")
   syntax reset
 endif

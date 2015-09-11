@@ -1,2 +1,2 @@
-# vim-colors-torch
-The most useless colorscheme ever
+# vim-colors-useless
+The most useless colorscheme ever as it is.
