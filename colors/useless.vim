@@ -1,4 +1,4 @@
-" Vim colorscheme file: torch
+" Vim colorscheme file: useless
 " Author:   Takahiro Yoshihara <tacahiroy@gmail.com>
 " License: Copyright 2015 Takahiro Yoshihara
 "          Distributed under the same terms as Vim itself. See :help license.
@@ -13,7 +13,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = 'torch'
+let g:colors_name = 'useless'
 
 function! s:getting_dark()
   redir => list
