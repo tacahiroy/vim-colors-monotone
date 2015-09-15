@@ -1,4 +1,4 @@
-" Vim colorscheme file: useless
+" Vim colorscheme file: monotone
 " Author:   Takahiro Yoshihara <tacahiroy@gmail.com>
 " License: Copyright 2015 Takahiro Yoshihara
 "          Distributed under the same terms as Vim itself. See :help license.
@@ -13,7 +13,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = 'useless'
+let g:colors_name = 'monotone'
 
 function! s:getting_dark()
   redir => list
@@ -42,7 +42,7 @@ call s:getting_dark()
 
 let &cursorline = 1
 for i in range(1, 50)
-  execute printf('hi Cursor guifg=Grey%d', i)
+  execute printf('hi Cursor gui=NONE guifg=Grey%d', i)
   execute printf('hi CursorLineNr gui=NONE guifg=Grey%d', i)
   execute printf('hi CursorLine gui=NONE guifg=Grey%d', i)
   sleep 50m
